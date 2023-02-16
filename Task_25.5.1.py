@@ -73,7 +73,7 @@ def test_unique_name():
     pytest.driver.find_element_by_id('email').send_keys('leatherman@mail.ru')
 
     # Ввод пароля
-    pytest.driver.find_element_by_id('pass').send_keys('212pok85')
+    pytest.driver.find_element_by_id('pass').send_keys('12345')
 
     # Нажимаем на кнопку входа в аккаунт
     pytest.driver.find_element_by_css_selector('button[type="submit"]').click()
